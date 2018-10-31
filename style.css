@@ -37,8 +37,11 @@
 }
 
 #enter{
-    top: 100px;
+    top: 87px;
+    left: 100px;
+    width: 50px;
     background-color: aquamarine;
     text-align: center;
     position: relative;
+    cursor: default;
 }
