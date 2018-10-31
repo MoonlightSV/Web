@@ -1,0 +1,44 @@
+#login_pass{
+    background-color: beige;
+    width: 250px;
+    height: 150px;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+}
+
+#login{
+    border-radius: 5px;
+    top: 15%;
+    left: 14%;
+    position: relative;
+}
+
+#pass{
+    border-radius: 5px;
+    top: 35%;
+    left: 5%;
+    position: relative;
+}
+
+#carpet{
+    top: 0px;
+    width: 250px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#img_carpet{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 16px;
+    z-index: 1;
+}
+
+#enter{
+    top: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    position: relative;
+}

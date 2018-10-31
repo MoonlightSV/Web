@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="login_pass">
+        <div id="login">
+            Login:
+            <input id="inp_login">
+        </div>
+        <div id="pass">
+            Password:
+            <input id="inp_pass">
+        </div>
+        <div id="enter" onclick="sign_in()">
+            Вход
+        </div>
+    </div>
+
+    <div id="carpet" onmouseover="move()" onmouseout="back()">
+        <div id="info">
+            <p>login: admin</p>
+            <p>pass: admin</p>
+        </div>
+
+        <img src="kover.jpg" id="img_carpet">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
