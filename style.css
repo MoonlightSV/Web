@@ -1,21 +1,20 @@
 #login_pass{
-    background-color: beige;
-    width: 250px;
-    height: 150px;
-    top: 40%;
-    left: 40%;
+    background-color: mediumaquamarine;
+    width: 20%;
+    height: 20%;
+    right: 15px;
     position: absolute;
 }
 
 #login{
     top: 15%;
-    left: 14%;
+    left: 50px;
     position: relative;
 }
 
 #pass{
     top: 35%;
-    left: 5%;
+    left: 26px;
     position: relative;
 }
 
@@ -43,9 +42,10 @@
 }
 
 #enter{
-    top: 87px;
-    left: 100px;
-    width: 50px;
+    top: 70px;
+    left: 110px;
+    width: 70px;
+    height: 25px;
     background-color: aquamarine;
     text-align: center;
     position: relative;
@@ -53,5 +53,5 @@
 }
 
 #enter:hover{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.5);
 }
