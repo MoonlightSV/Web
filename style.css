@@ -1,14 +1,18 @@
+html{
+    overflow-x: hidden;
+}
+
 #login_pass{
     background-color: mediumaquamarine;
     width: 20%;
     height: 20%;
-    right: 15px;
+    right: 10px;
     position: absolute;
 }
 
 #login{
     top: 15%;
-    left: 50px;
+    left: 49px;
     position: relative;
 }
 
@@ -20,10 +24,12 @@
 
 #inp_login{
     border-radius: 5px;
+    width: 90px;
 }
 
 #inp_pass{
     border-radius: 5px;
+    width: 90px;
 }
 
 #carpet{
