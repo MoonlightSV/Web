@@ -8,17 +8,23 @@
 }
 
 #login{
-    border-radius: 5px;
     top: 15%;
     left: 14%;
     position: relative;
 }
 
 #pass{
-    border-radius: 5px;
     top: 35%;
     left: 5%;
     position: relative;
+}
+
+#inp_login{
+    border-radius: 5px;
+}
+
+#inp_pass{
+    border-radius: 5px;
 }
 
 #carpet{
@@ -44,4 +50,8 @@
     text-align: center;
     position: relative;
     cursor: default;
+}
+
+#enter:hover{
+    background-color: rgba(255, 255, 255, 1);
 }
